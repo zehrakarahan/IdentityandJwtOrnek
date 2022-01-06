@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  identityandjwt.api2:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+
+  identityandjwtapi:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+
